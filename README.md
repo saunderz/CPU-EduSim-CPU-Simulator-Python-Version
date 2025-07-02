@@ -89,11 +89,11 @@ cd cpu-visualizer
 pip install matplotlib
 ```
 # 3. Compilar backend
-Windows (MinGW):
+- Windows (MinGW):
 ```
 gcc -shared -o cpu_backend.dll cpu_backend.c
 ```
-Linux/MacOS:
+- Linux/MacOS:
 ```
 gcc -shared -o libcpu_backend.so -fPIC cpu_backend.c
 ```
