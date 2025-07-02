@@ -103,7 +103,8 @@ gcc -shared -o libcpu_backend.so -fPIC cpu_backend.c
 python cpu_frontend.py
 ```
 
-📝 Exemplo de Uso
+# 📝 Exemplo de Uso
+
 Clique em “Próxima Instrução” para executar cada instrução carregada.
 
 Ative o Modo Explicação para visualizar descrições detalhadas.
@@ -114,7 +115,7 @@ Clique em “Gráfico de Desempenho” para visualizar os ciclos de clock gastos
 
 Clique em “Resetar” para reiniciar todo o sistema.
 
-💡 Conceitos Demonstrados
+# 💡 Conceitos Demonstrados
 
 🔹 Mapeamento direto de cache
 
@@ -126,7 +127,7 @@ Clique em “Resetar” para reiniciar todo o sistema.
 
 🔹 Implementação de backend de alto desempenho em C integrado ao frontend em Python
 
-✨ Agradecimentos
+# ✨ Agradecimentos
 
 Este projeto foi desenvolvido para fins didáticos, como ferramenta prática de apoio ao estudo de Arquitetura de Computadores e Sistemas Embarcados.
 
