@@ -135,9 +135,9 @@ Este projeto foi desenvolvido para fins didáticos, como ferramenta prática de 
 ### 🔖 **Orientações Finais**
 
 - Substitua **`seuusuario`**, **`SEUID`** e links pelo seu usuário GitHub e LinkedIn.
-- 
+
 - Adicione imagens reais do programa na pasta `images` para as seções de screenshots.
-- 
+
 - Confirme se o nome do seu repositório corresponde ao projeto antes de publicar.
 
 
