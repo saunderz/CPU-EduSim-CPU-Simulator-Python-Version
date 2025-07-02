@@ -1,4 +1,4 @@
-# 🖥️ CPU Visualizer com Backend em C
+# 🖥️ CPU Visualizer
 
 ![Language](https://img.shields.io/badge/Language-C%20%26%20Python-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
