@@ -72,9 +72,10 @@ O programa possui um **backend implementado em C** para maior performance e cont
 ```bash
   pip install matplotlib
 ```
-# ---------------------------------------------------------------------
+---
+
 # 🖥️ Script de Clone, Compilação e Execução do CPU Visualizer
-# ---------------------------------------------------------------------
+
 
 # Clonar o repositório
 echo "🔽 Clonando o repositório..."
