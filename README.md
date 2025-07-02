@@ -1,4 +1,4 @@
-# 🖥️ CPU Visualizer
+# 🖥️ CPU EduSim - CPU Simulator
 
 ![Language](https://img.shields.io/badge/Language-C%20%26%20Python-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -78,8 +78,8 @@ O programa possui um **backend implementado em C** para maior performance e cont
 
 #### 1. Clonar repositório
 ```
-git clone https://github.com/seuusuario/cpu-visualizer.git
-cd cpu-visualizer
+git clone https://github.com/saunderz/CPU-EduSim-CPU-Simulator.git
+cd CPU-EduSim-CPU-Simulator
 ```
 #### 2. Instalar dependências Python
 ```
