@@ -105,15 +105,15 @@ python cpu_frontend.py
 
 # 📝 Exemplo de Uso
 
-Clique em “Próxima Instrução” para executar cada instrução carregada.
+- Clique em “Próxima Instrução” para executar cada instrução carregada.
 
-Ative o Modo Explicação para visualizar descrições detalhadas.
+- Ative o Modo Explicação para visualizar descrições detalhadas.
 
-Edite memória, registradores, cache ou instruções usando os botões dedicados.
+- Edite memória, registradores, cache ou instruções usando os botões dedicados.
 
-Clique em “Gráfico de Desempenho” para visualizar os ciclos de clock gastos por instrução.
+- Clique em “Gráfico de Desempenho” para visualizar os ciclos de clock gastos por instrução.
 
-Clique em “Resetar” para reiniciar todo o sistema.
+- Clique em “Resetar” para reiniciar todo o sistema.
 
 # 💡 Conceitos Demonstrados
 
