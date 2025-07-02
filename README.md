@@ -77,30 +77,24 @@ O programa possui um **backend implementado em C** para maior performance e cont
 # 🖥️ Script de Clone, Compilação e Execução do CPU Visualizer
 
 
-# Clonar o repositório
+REPO_URL="https://github.com/seuusuario/cpu-visualizer.git"
+
+# 1. Clonar repositório
 echo "🔽 Clonando o repositório..."
-git clone https://github.com/seuusuario/cpu-visualizer.git
-cd cpu-visualizer || { echo "❌ Falha ao acessar diretório cpu-visualizer"; exit 1; }
+git clone "$REPO_URL" || exit 1
+cd cpu-visualizer || exit 1
 
-# Compilar o backend
+# 2. Instalar dependências Python
+echo "🔧 Instalando dependências Python..."
+pip install matplotlib || exit 1
+
+# 3. Compilar backend
 echo "⚙️ Compilando o backend..."
+gcc -shared -o libcpu_backend.so -fPIC cpu_backend.c || exit 1
 
-# Detecta sistema operacional para compilar corretamente
-OS="$(uname -s)"
-case "${OS}" in
-    Linux*)
-        echo "🖥️ Sistema Linux detectado."
-        gcc -shared -o libcpu_backend.so -fPIC cpu_backend.c
-        ;;
-    MINGW*|MSYS*|CYGWIN*)
-        echo "🖥️ Sistema Windows detectado (MinGW)."
-        gcc -shared -o cpu_backend.dll cpu_backend.c
-        ;;
-    *)
-        echo "❌ Sistema operacional não suportado automaticamente. Compile manualmente."
-        exit 1
-        ;;
-esac
+# 4. Executar frontend
+echo "🚀 Executando o frontend em Python..."
+python cpu_frontend.py
 
 # Executar o frontend em Python
 echo "🚀 Executando o frontend..."
