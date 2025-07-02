@@ -80,25 +80,28 @@ O programa possui um **backend implementado em C** para maior performance e cont
 REPO_URL="https://github.com/seuusuario/cpu-visualizer.git"
 
 # 1. Clonar repositório
-echo "🔽 Clonando o repositório..."
-git clone "$REPO_URL" || exit 1
-cd cpu-visualizer || exit 1
-
+```
+git clone https://github.com/seuusuario/cpu-visualizer.git
+cd cpu-visualizer
+```
 # 2. Instalar dependências Python
-echo "🔧 Instalando dependências Python..."
-pip install matplotlib || exit 1
-
+```
+pip install matplotlib
+```
 # 3. Compilar backend
-echo "⚙️ Compilando o backend..."
-gcc -shared -o libcpu_backend.so -fPIC cpu_backend.c || exit 1
+Windows (MinGW):
+```
+gcc -shared -o cpu_backend.dll cpu_backend.c
+```
+Linux/MacOS:
+```
+gcc -shared -o libcpu_backend.so -fPIC cpu_backend.c
+```
 
 # 4. Executar frontend
-echo "🚀 Executando o frontend em Python..."
+```
 python cpu_frontend.py
-
-# Executar o frontend em Python
-echo "🚀 Executando o frontend..."
-python cpu_frontend.py
+```
 
 📝 Exemplo de Uso
 Clique em “Próxima Instrução” para executar cada instrução carregada.
@@ -112,19 +115,28 @@ Clique em “Gráfico de Desempenho” para visualizar os ciclos de clock gastos
 Clique em “Resetar” para reiniciar todo o sistema.
 
 💡 Conceitos Demonstrados
+
 🔹 Mapeamento direto de cache
+
 🔹 Políticas de escrita (Write-Through + Write-Allocate)
+
 🔹 Ciclos de clock e esforço computacional
+
 🔹 Fluxo de dados entre memória, cache e registradores
+
 🔹 Implementação de backend de alto desempenho em C integrado ao frontend em Python
 
 ✨ Agradecimentos
+
 Este projeto foi desenvolvido para fins didáticos, como ferramenta prática de apoio ao estudo de Arquitetura de Computadores e Sistemas Embarcados.
 
 
 ### 🔖 **Orientações Finais**
+
 - Substitua **`seuusuario`**, **`SEUID`** e links pelo seu usuário GitHub e LinkedIn.
+- 
 - Adicione imagens reais do programa na pasta `images` para as seções de screenshots.
+- 
 - Confirme se o nome do seu repositório corresponde ao projeto antes de publicar.
 
 
