@@ -62,7 +62,7 @@ O programa possui um **backend implementado em C** para maior performance e cont
 
 ---
 
-## 🚀 Como Executar
+# 🚀 Como Executar
 
 ### 🔧 Pré-requisitos
 
@@ -74,7 +74,7 @@ O programa possui um **backend implementado em C** para maior performance e cont
 ```
 ---
 
-# 🖥️ Script de Clone, Compilação e Execução do CPU Visualizer
+### 🖥️ Script de Clone, Compilação e Execução do CPU Visualizer
 
 # 1. Clonar repositório
 ```
