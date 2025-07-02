@@ -1,4 +1,4 @@
-# 🖥️ CPU EduSim – Simulador de CPU (Python Completo)
+# 🖥️ CPU EduSim – Simulador de CPU - Versão Python
 
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
