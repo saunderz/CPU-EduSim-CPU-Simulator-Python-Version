@@ -76,9 +76,6 @@ O programa possui um **backend implementado em C** para maior performance e cont
 
 # 🖥️ Script de Clone, Compilação e Execução do CPU Visualizer
 
-
-REPO_URL="https://github.com/seuusuario/cpu-visualizer.git"
-
 # 1. Clonar repositório
 ```
 git clone https://github.com/seuusuario/cpu-visualizer.git
